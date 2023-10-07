@@ -304,9 +304,14 @@ footer {
   padding-top: 2.5vh;
   font-size: 3rem;
 }
-footer div {
+footer > div,
+footer nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+.signup {
+  align-items: center;
 }
 
 /* mobile media query */
