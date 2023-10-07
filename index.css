@@ -176,6 +176,7 @@ a {
   font-size: 3rem;
   color: rgb(225, 239, 230);
 }
+
 header,
 footer {
   color: rgb(225, 239, 230);
@@ -195,6 +196,13 @@ header {
 header nav {
   display: flex;
   justify-content: space-evenly;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  margin: 3rem;
 }
 
 /* spacers */
@@ -309,9 +317,6 @@ footer nav {
   display: flex;
   justify-content: space-around;
   flex-grow: 1;
-}
-.signup {
-  align-items: center;
 }
 
 /* mobile media query */
