@@ -177,12 +177,6 @@ a {
   color: rgb(225, 239, 230);
 }
 
-header,
-footer {
-  color: rgb(225, 239, 230);
-  background-color: rgb(0, 4, 17);
-}
-
 /* header section */
 header {
   width: 100%;
@@ -191,6 +185,12 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+header,
+footer {
+  color: rgb(225, 239, 230);
+  background-color: rgb(0, 4, 17);
 }
 
 header nav {
@@ -202,7 +202,7 @@ header nav {
   display: flex;
   justify-content: center;
   gap: 6rem;
-  margin: 3rem;
+  padding: 3rem;
 }
 
 /* spacers */
@@ -223,11 +223,11 @@ header nav {
   height: 100vh;
   text-align: center;
   background-color: rgb(0, 4, 17);
-  padding: 5rem;
 }
+
 img {
   object-fit: cover;
-  margin: 5rem;
+  margin: 2rem;
 }
 
 /* about us section */
@@ -318,10 +318,31 @@ footer nav {
   justify-content: space-around;
   flex-grow: 1;
 }
+.mail-box {
+  text-align: center;
+  margin-left: 2rem;
+}
+
+footer input,
+button {
+  padding: 1rem 5rem;
+}
+
+.copyright {
+  font-size: 1rem;
+  float: right;
+}
+.copyright > p {
+  font-size: 1.5rem;
+}
 
 /* mobile media query */
 @media (max-width: 428px) {
   /* header section */
+  header nav {
+    flex-direction: column;
+    align-items: center;
+  }
 
   /* gallery section */
   .gallery {
