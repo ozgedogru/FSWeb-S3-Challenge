@@ -400,11 +400,11 @@ button {
     padding-top: 2.5vh;
     font-size: 2rem;
   }
-}
 
-footer > div,
-footer nav {
-  flex-direction: column;
-  align-items: center;
-  margin: 2rem 0;
+  footer > div,
+  footer nav {
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+  }
 }
